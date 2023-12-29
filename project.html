@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles5.css">
+    <title>Tests</title>
+</head>
+<body>
+    <div id="main">
+    <h1 id="title">SMP An-nisaa Registration Form</h1>
+      <p id="description">"Thanks for choosing SMP An-nisaa"</p>
+      <form id="survey-form">
+        <fieldset>
+        <label id="name-label">Enter Your Full Name: <input id="name" type="text" placeholder="Enter Your Name" required/><label>
+
+        <label id="email-label">Enter Your Email: <input id="email" type="email" placeholder="Enter Your Email" required/></label>
+
+        <label id="number-label">Enter Your Age: <input id="number" type="number" min="12" max="20" placeholder="Enter Your Age" required/><label>
+          </fieldset>
+<fieldset>
+  <legend>Type (required)</legend>
+                    <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" value="s" checked />Student</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" value="t" />Teacher</label>
+        </fieldset>
+<fieldset>
+  <label>Where did you know about SMP An-nisaa?
+  <select id="dropdown">
+ <option value=" ">(select one)</option>
+  <option value="1">Social Media</option>
+   <option value="2">Others</option>
+    </select>
+  </fieldset>
+  </label>
+  <fieldset>
+    <label>Tell Us about yourself:
+                <textarea id ="bio" name="text" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+    </label>
+</fieldset>
+      </label>
+      
+           <label for="An-nisaa">
+        <input value="an-nisaa" class="inline" id="An-nisaa" type="checkbox" name="annisaa" required /> SMP An-nisaa is the best school
+
+      </label>
+
+      <label for="terms-and-conditions">
+        <input value="Terms" class="inline" id="terms-and-conditions" type="checkbox" name="terms" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+
+<fieldset>
+      <label>
+        <input type="submit" value="Submit" id="submit" />
+      </label>
+      </fieldset>
+      </form>
+      </div>
+</body>
+</html>
